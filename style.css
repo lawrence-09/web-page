@@ -20,8 +20,6 @@ a{
     background-color: rgb(35,62,66);
     border-radius: 9%;
 }
-.footer{
-    margin-bottom: 50%;
-    background-color: rgba(0, 0, 0, 0.733);
-    text-decoration-color: rgba(255, 240, 240, 0.849);
+p{
+    text-decoration: bold;
 }
