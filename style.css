@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(118,118,160);
 }
 .header{
     background-color: rgb(18,91,104);
