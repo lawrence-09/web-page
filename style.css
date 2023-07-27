@@ -4,7 +4,7 @@ body{
     background-color: rgb(118,118,160);
 }
 .header{
-    background-color: rgb(18,91,104);
+    background-img:src="https://images.pexels.com/photos/709567/pexels-photo-709567.jpeg?auto=compress&cs=tinysrgb&w=600"alt='fruits'>;
 }
 .header ul li{
     list-style-type: none;
