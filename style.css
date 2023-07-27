@@ -4,7 +4,7 @@ body{
     background-color: rgb(118,118,160);
 }
 .header{
-    background-img:src="https://images.pexels.com/photos/709567/pexels-photo-709567.jpeg?auto=compress&cs=tinysrgb&w=600"alt='fruits'>;
+    background-image:url("https://images.pexels.com/photos/709567/pexels-photo-709567.jpeg?auto=compress&cs=tinysrgb&w=600");
     min-height:100px;
 }
 .header ul li{
