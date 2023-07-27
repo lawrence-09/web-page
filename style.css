@@ -5,7 +5,7 @@ body{
 }
 .header{
     background-image:url("https://images.pexels.com/photos/709567/pexels-photo-709567.jpeg?auto=compress&cs=tinysrgb&w=600");
-    min-height:50px;
+    min-height:200px;
 }
 .header ul li{
     list-style-type: none;
