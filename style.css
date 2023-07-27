@@ -23,3 +23,6 @@ a{
 p{
     text-decoration: bold;
 }
+#navbar ul li{
+    padding: 30px;
+}
