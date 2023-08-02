@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Contacts</title>
+    <script>
+        function validateForm() {
+            var name = document.forms["contactForm"]["name"].value;
+            var email = document.forms["contactForm"]["email"].value;
+            var message = document.forms["contactForm"]["message"].value;
+            
+            if (name == "" || email == "" || message == "") {
+                alert("Please fill in all the fields");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+        </nav>
+    </header>
+    <h1>Contact Us</h1>
+    <form name="contactForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
