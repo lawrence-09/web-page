@@ -27,6 +27,7 @@ p{
     text-decoration: bold;
     width: 150px;
     height: 100px;
+    display: inline-block;
 }
 #navbar ul li{
     padding: 30px;
