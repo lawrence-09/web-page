@@ -25,6 +25,8 @@ a{
 }
 p{
     text-decoration: bold;
+    width: 150px;
+    height: 100px;
 }
 #navbar ul li{
     padding: 30px;
